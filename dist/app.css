@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300&display=swap");
+body {
+  font-family: "Roboto";
+  color: white;
+  background-color: #4AB538;
+}
+body .container {
+  text-align: center;
+  margin-top: 100px;
+}
+body .container .box {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 850px;
+  height: 500px;
+  padding: 25px;
+  border-radius: 5px;
+  background: white;
+}
+body .container .box .form {
+  border-radius: 5px;
+  border: 2px solid #c2c2c2;
+  margin: 0 auto;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+body .container .box .form .textarea {
+  height: 80%;
+  display: flex;
+  border-bottom: 2px solid #c2c2c2;
+}
+body .container .box .form .textarea textarea {
+  padding: 15px;
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  font-family: Roboto;
+  outline: none;
+  resize: none;
+}
+body .container .box .form .textarea textarea:nth-child(2) {
+  border-left: 2px solid #c2c2c2;
+}
+body .container .box .form .icon-btns {
+  height: 20%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  color: #A5E888;
+}
+body .container .box .form .icon-btns div {
+  display: flex;
+  justify-content: center;
+}
+body .container .box .form .icon-btns div span {
+  transition: all 0.3s ease;
+  font-size: 30px;
+  margin: 0 25px;
+  cursor: pointer;
+}
+body .container .box .form .icon-btns div span:hover {
+  color: #4AB538;
+}
+body .container .box .form .icon-btns div select {
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  color: #474A45;
+  box-shadow: none !important;
+}
+body .container .box .form .icon-btns div option {
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #474A45;
+  cursor: pointer;
+  padding: 5px 15px;
+  font-size: 18px;
+  margin: 10px 5px;
+}
+body .container .box button {
+  padding: 15px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 22px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  width: 250px;
+  color: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  background-color: #4AB538;
+}
+body .container .box button:hover {
+  background-color: #A5E888;
+}/*# sourceMappingURL=app.css.map */
